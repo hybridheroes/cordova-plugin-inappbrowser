@@ -159,6 +159,7 @@
         }
     }
 
+    self.inAppBrowserViewController.automaticallyAdjustsScrollViewInsets = NO;
     [self.inAppBrowserViewController showLocationBar:browserOptions.location];
     [self.inAppBrowserViewController showToolBar:browserOptions.toolbar :browserOptions.toolbarposition];
     if (browserOptions.closebuttoncaption != nil) {
